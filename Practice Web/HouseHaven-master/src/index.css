@@ -1,0 +1,174 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --font-size-base: 16px;
+  --spacing-base: 1rem;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent; /* thumb and track color */
+}
+
+button {
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", system-ui !important;
+}
+
+h2 {
+  /* color: #f39149; */
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Flex Utilities */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.xsm-gap {
+  gap: 5px;
+}
+
+.sm-gap {
+  gap: 10px;
+}
+
+.md-gap {
+  gap: 15px;
+}
+
+.lg-gap {
+  gap: 15px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-end {
+  align-items: flex-end;
+}
+
+/* Margin Utilities */
+.m {
+  margin: 1rem;
+}
+
+.my {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mx {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.ml {
+  margin-left: 1rem;
+}
+
+.mr {
+  margin-right: 1rem;
+}
+
+/* Padding Utilities */
+.p {
+  padding: 1rem;
+}
+
+.py {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pt {
+  padding-top: 1rem;
+}
+
+.pb {
+  padding-bottom: 1rem;
+}
+
+.pl {
+  padding-left: 1rem;
+}
+
+.pr {
+  padding-right: 1rem;
+}
+
+/* Additional Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.font-base {
+  font-size: var(--font-size-base);
+}
+
+.border-bottom {
+  border-bottom: 1px solid #eeeded;
+  padding: 20px 0;
+}
